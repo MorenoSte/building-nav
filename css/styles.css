@@ -1,4 +1,5 @@
-.box {
+/* Below classes were used to learn float property */
+/*.box {
     height: 100px;
     width: 200px;
 
@@ -48,4 +49,28 @@
 .clear-both {
     clear: both;
 }
+/*Nav styles */
+body{
+    margin: 0;
+}
+.main-nav {
+    height: 90px;
+    background-color: gray;
+}
 
+.logo{
+    height: 46px;  
+    padding: 25px;
+    
+}
+.nav-list {
+    float: right;
+    list-style-type: none;
+}
+
+li{
+    color: #fff;
+    float:left;
+    padding: 14px 16px 20px;
+}
+/* End Nav Styles */
