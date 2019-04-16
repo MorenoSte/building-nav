@@ -73,7 +73,11 @@ li{
     float:left;
     padding: 14px 16px 20px;
 }
-
+.map{
+    width: 400px;
+    height: 600px;
+    padding: 600px;
+}
 
 /* End Nav Styles */
 
