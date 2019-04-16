@@ -76,3 +76,25 @@ li{
 
 
 /* End Nav Styles */
+
+/*content styles*/
+.content{
+    height: 85vh;
+}
+/*footer styles*/
+.footer{
+    background-color: brown;
+    height: 50px;
+
+}
+
+.social-media{
+    height: 50px;
+    margin-bottom: 0px;
+    list-style-type: none;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+/* End Footer styles */
