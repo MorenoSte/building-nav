@@ -75,15 +75,18 @@ li{
 }
 .map{
     width: 400px;
-    height: 600px;
-    padding: 600px;
-}
+    height: 600px
+      >>>>>>> develop
+
+
+
 
 /* End Nav Styles */
 
 /*content styles*/
 .content{
     height: 85vh;
+    padding: 0 50px;
 }
 /*footer styles*/
 .footer{
