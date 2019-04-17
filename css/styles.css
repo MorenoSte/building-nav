@@ -135,9 +135,20 @@ a{
 .button-small{
     width: 150px;
 }
+span{
+    background-color: yellowgreen;
+}
+.family > span {
+    background-color: orange;
+}
 
+.second-span ~ .first-span{
+    color: red;
+}
 
-
+ul.social-media > li {
+    padding: 20px 24px;
+}
 /* End Footer styles */
 
 /* all devices with screen width<=768px */
