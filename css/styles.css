@@ -63,6 +63,9 @@ body{
     padding: 25px;
     
 }
+.logo:hover{
+    width: 65px;
+}
 .nav-list {
     float: right;
     list-style-type: none;
@@ -73,6 +76,12 @@ li{
     float:left;
     padding: 14px 16px 20px;
 }
+
+li:hover{
+    font-size: 30px;
+    padding: 5px 16px;
+}
+
 .map{
     width: 400px;
     height: 600px
@@ -104,4 +113,30 @@ a{
     color: white;
     text-decoration: none;
 }
+.button{
+    border-radius: 10px;
+    color: white;
+    font-size: 24px;
+    padding:10px;
+}
+.button-success{
+    border: 1px solid #ccc;
+    background: green;
+}
+
+.button-default{
+    background: #ccc;
+    color: black;
+}
+.button-danger{
+    width: 250px;
+    background: red;
+    border: none;
+}
+.button-small{
+    width: 150px;
+}
+
+
+
 /* End Footer styles */
